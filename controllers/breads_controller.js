@@ -9,14 +9,12 @@ breads.get('/', (req, res) => {
             breads: Bread
         }
     )
-    
 })
 
 // NEW
 breads.get('/new', (req, res) => {
     res.render('new')
 })
-
 
 // SHOW
 breads.get('/:arrayIndex', (req, res) => {
